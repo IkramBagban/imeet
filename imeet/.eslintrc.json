@@ -1,3 +1,16 @@
+
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "eslint:recommended"],
+  "rules": {
+    // Enforce semicolons
+    "semi": ["error", "always"],
+
+    // Disallow more than one empty line
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+
+    "quotes": ["error", "double"], // Enforce single quotes
+    "indent": ["error", 2], // Enforce consistent 2-space indentation
+    "no-console": "warn", // Warn on console usage
+    "eol-last": ["error", "always"] // Ensure file ends with a newline
+  }
 }
