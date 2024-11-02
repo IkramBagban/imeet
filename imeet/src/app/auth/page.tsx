@@ -1,5 +1,5 @@
 import React from "react";
-  import Signup from "@/Components/Auth/Signup";
+import Signup from "@/Components/Auth/Signup";
 import Login from "@/Components/Auth/Login";
 
 const Auth = () => {
@@ -9,7 +9,6 @@ const Auth = () => {
         {/* Sign Up Section */}
 
         <Signup />
-        {/* Vertical Divider */}
         <div className="w-px bg-gray-300"></div>
 
         {/* Log In Section */}
